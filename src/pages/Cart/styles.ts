@@ -31,7 +31,7 @@ export const Container = styled.div`
 
 export const ProductTable = styled.table`
   width: 100%;
-
+  
   thead th {
     color: #999;
     text-align: left;
@@ -95,6 +95,10 @@ export const ProductTable = styled.table`
       }
     }
   }
+`;
+
+export const EmptyCart = styled.div`
+  font-size: 30px;  
 `;
 
 export const Total = styled.div`
